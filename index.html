@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по JS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    
+    <div class="header"></div>
+
+    <div class="container">
+        <div class="settings">
+            <div class="settings__title"><span>Правила прохождения теста:</span></div>
+            <div class="settings__list">
+                <div class="settings__list-item">1. На каждый вопрос у вас есть <span class="settings__list-item-sec">30 секунд</span>.</div>
+                <div class="settings__list-item">2. Как только вы выберете свой ответ, его нельзя будет отменить.</div>
+                <div class="settings__list-item">3. Вы не сможете выбрать какой-либо вариант, когда время истечет.</div>
+                <div class="settings__list-item">4. Во время прохождения теста из него нельзя выйти.</div>
+                <div class="settings__list-item">5. В конце теста вы увидите количество правильных ответов.</div>
+            </div>
+            <button class="settings__start start-btn">Начать</button>
+        </div>
+
+        <div class="tests">
+            <header class="tests__header">
+                <div class="tests__title">Тест на знание основ JavaScript</div>
+                <div class="tests__timer">
+                    <div class="tests__timer-text">Тайминг</div>
+                    <div class="tests__timer-time">30</div>
+                </div>
+                <div class="tests__timeline"></div>
+            </header>
+
+            <section class="tests__block">
+                <div class="tests__block-quest">
+                </div>
+                <div class="tests__block-options">
+                </div>
+            </section>
+
+            <footer class="tests__footer">
+                <div class="tests__footer-total">
+                </div>
+                <button class="tests__footer-nextbtn">Следующий вопрос</button>
+            </footer>
+        </div>
+
+        <div class="result">
+            <div class="result__icon">
+                <i class="fa fa-trophy"></i>
+            </div>
+            <div class="result__text">Результат теста</div>
+            <div class="result__score">
+
+            </div>
+            <div class="result__btns">
+                <button class="result__start-btn start-btn">Начать заново</button>
+                <button class="result__close-btn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/questions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+</html>
